@@ -1,5 +1,4 @@
 export async function onRequest(context) {
-  const input = { prompt: "wandering on mars" }
 
   const response = await context.env.AI.run(
       "@cf/meta/m2m100-1.2b",
